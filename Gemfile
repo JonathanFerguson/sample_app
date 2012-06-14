@@ -7,10 +7,14 @@ gem 'rails', '3.2.5'
 
 gem 'sqlite3'
 gem 'gravatar_image_tag', '0.1.0'
+#gem 'activerecord-postgresql-adapter'
+#group:test do
+  #gem 'factory_girl_rails', '1.0'
+#end
 
-group:test do
-  gem 'factory_girl_rails', '1.0'
-end
+	#group:production do
+	#gem 'pg'
+	#end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
